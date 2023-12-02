@@ -1,0 +1,21 @@
+{
+  "name": "adventofcode2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "format": "npx prettier . --write",
+    "lint": "npx eslint --fix src/ tests/",
+    "start": "node main.js",
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.1.0",
+    "vitest": "^0.34.6"
+  }
+}
