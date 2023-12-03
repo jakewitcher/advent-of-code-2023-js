@@ -4,7 +4,7 @@ import { CubeGameAnalyzer } from '../../src/day02/cubeGameAnalyzer.js';
 import { CubeGamesPlayed } from '../../src/day02/cubeGamesPlayed.js';
 
 describe('cube game', () => {
-  describe('it parses an input game', () => {
+  describe('it parses the game input', () => {
     test('when the game has one round', () => {
       const row = 'Game 15: 3 blue, 4 red';
       const cubeGame = new CubeGame(row);
