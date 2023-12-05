@@ -1,13 +1,8 @@
-import { EngineSchematic } from './src/day03/engineSchematic.js';
-import { GondolaEngine } from './src/day03/gondolaEngine.js';
+import { ScratchCardPile } from './src/day04/scratchCardPile.js';
 
 (function main() {
-  const input = EngineSchematic.get();
-
-  const engineSchematic = new EngineSchematic(input);
-  const gondolatEngine = new GondolaEngine(engineSchematic);
-
-  const result = gondolatEngine.findGearRatioSum();
-
+  const input = ScratchCardPile.get();
+  const scratchCardPile = new ScratchCardPile(input);
+  const result = scratchCardPile.calculateWinningPoints();
   console.log(result);
 })();
